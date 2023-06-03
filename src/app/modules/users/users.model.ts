@@ -22,4 +22,4 @@ const userSchema = new Schema<IUser>(
   { timestamps: true }
 )
 
-export const user = model<IUser, UserModel>('users', userSchema)
+export const User = model<IUser, UserModel>('users', userSchema)
